@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+a{
+    font-size: 13px;
+    text-decoration: none;
+    color: inherit;
+}
+
+li{
+    list-style: none;
+    margin-top: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 0px;
+    border-right: 1px dotted white;
+}
+
+li:last-child{
+    border: none;
+    /* background: darkgreen;
+    padding: 0; */
+}
+
+/* li:nth-child(5){
+    border: none;
+} */
+
+ul{
+    display: flex;
+}
+
+.top-bar{
+    background: #A80833;
+    color: white;
+    height: 100px;
+    /* position: relative; */
+    width: 100%;
+    height: 142px;
+}
+
+.container{
+    position: relative;
+}
+
+.links{
+    position: absolute;
+    top: 0;
+    left: 43%;
+}
+
+.logo{
+    position: absolute;
+    top: 35px;
+    /* left: 17.5%; */
+    left: 280px;
+}
+
+.text{
+    position: absolute;
+    top: 99px;
+    left: 35%;
+}
+
+.title{
+    font-family: cursive;
+    font-style: italic;
+    font-size: 14px;
+}
+
+select{
+    font-size: 14px;
+    padding: 4px 4px 4px 25px;
+    width: 180px;
+}
+
+option{
+    font-size: 14px;
+}
+
+.lang-select{
+    position: absolute;
+    top: 97px;
+    left: 68%;
+}
+
+.bottom-nav{
+    position: absolute;
+    top: 15%;
+    color: black;
+}
