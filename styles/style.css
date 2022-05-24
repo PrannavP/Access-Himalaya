@@ -93,7 +93,46 @@ option{
 }
 
 .bottom-nav{
+    /* min-height: 50px; */
     position: absolute;
-    top: 15%;
-    color: black;
+    top: 18%;
+    color: white;
+    height: 40px;
+    width: 100%;
+    background: #730020;
+}
+
+.bottom-nav nav ul li{
+    padding: 0;
+    margin: 0;
+    padding: 10px 55px 15px 55px;
+    /* padding-bottom: 20px; */
+}
+
+.bottom-nav ul li a{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+nav{
+    /* height: 100px; */
+    position: absolute;
+    left: 15%;
+}
+
+.nav-lists:nth-child(1){
+    border-left: 1px dotted white;
+}
+
+.nav-lists:last-child{
+    border-right: 1px dotted white;
+}
+
+.widget-box{
+    background: #A80833;
+    width: 250px;
+}
+
+#trip-btn{
+    padding: 10px ;
 }
